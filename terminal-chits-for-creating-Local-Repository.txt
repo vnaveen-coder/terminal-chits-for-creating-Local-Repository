@@ -1,0 +1,26 @@
+these are the directory commands how to track the folders data..and how to get back if done unkmownly ..
+=====for this few terminal commands should be known====
+1.to open any directory - cd filename                 eg:- cd Desktop
+2.to know how many files in a directory - ls          eg:- cd Desktop / ls
+3.to know how many files in a directory including secret folders -    ls -a      eg:- cd Desktop/ls -a 
+4.to create secret folder or directory - mkdir .filename     eg :- mkdir .secrets
+5.create file in a directory - touch filename.extension     eg :- touch txt1.txt
+6.open a file in a directory - open filename.extension      eg:- open txt.txt
+7.to go back to main bash folder or the macintoish - cd ~   eg :- from(cd Desktop to cd ~)
+8.to clear the terminal  - clear 
+9.to remove a file/delete - rm filename.extension  eg:- rm txt1.txt
+10.to remove all files in a directory - rm*    eg :- cd example/ls/file.txt,file2.txt     delete all cd example/rm*
+11.to delete a directory[warning command check before you delete where you located by ls]  -   rm -r filename   eg :- rm -r sample]
+
+
+
+=======these are the commands for git repository=========
+1.to track a folder by git we need to initialize by  -   git init  eg:- cd sample/ git init
+2.to check how many files are being tracked - git status
+3.if we find red files then they are not added to add -  git add filename.extension
+4. to add all files in a folder - git add . 
+5.to commit a file git commit -m"comment to be added in present tense for futher understanding"   eg:- git commit -m"complte file 1"
+6.to check what are the previos commitments  - git log 
+7.to check what uncommited change you taken - git diff filename.extension eg:- git diff txt1.txt
+7.to retrive unexpected editings and not commited that file than you can retrive by this command - git checkout retrived filename  eg:- git checkout txt1.txt
+
