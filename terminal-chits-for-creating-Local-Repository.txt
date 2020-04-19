@@ -21,6 +21,13 @@ these are the directory commands how to track the folders data..and how to get b
 4. to add all files in a folder - git add . 
 5.to commit a file git commit -m"comment to be added in present tense for futher understanding"   eg:- git commit -m"complte file 1"
 6.to check what are the previos commitments  - git log 
-7.to check what uncommited change you taken - git diff filename.extension eg:- git diff txt1.txt
+7.to chec what uncommited change you taken - git diff filename.extension eg:- git diff txt1.txt
 7.to retrive unexpected editings and not commited that file than you can retrive by this command - git checkout retrived filename  eg:- git checkout txt1.txt
-
+8.create local branch - git branch <branchname>   eg:- git branch experiment
+9.to check which branch you are in - git branch   //* branch describes the present branch
+*********after edits in branch you need to add all to git*******
+10.to merge the local branches to master directory(or the main directory) 
+   1. got to the master branch by command git branch master from local branch
+   2.merge it by command - merge <branch name to merged to the main branch>  eg: - git  merge branch experimental (my local branch)
+11. to push all these new modified master branch to remote - git push origin master -u
+12. to add a local file to git from terminal by - git remote add origin <git repository URl>    
